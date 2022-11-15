@@ -12,7 +12,10 @@ const Testimonial = () => {
   // destructure testimonial data
   const { title, subtitle, modelImg, slider } = testimonialData;
   return (
-    <section className="bg-testimonial bg-cover bg-no-repeat relative top-[340px] lg:top-[390px] z-10 h-[800px] pt-[60px] md:pt-[120px]">
+    <section
+      id="testimonial"
+      className="bg-testimonial bg-cover bg-no-repeat relative top-[340px] lg:top-[390px] z-10 h-[800px] pt-[60px] md:pt-[120px]"
+    >
       <div className="container mx-auto">
         {/* text */}
         <motion.div

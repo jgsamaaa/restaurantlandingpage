@@ -19,7 +19,10 @@ const Team = () => {
     chefImg,
   } = teamData;
   return (
-    <section className="relative top-96 z-10 lg:top-[480px] min-h-[720px]">
+    <section
+      className="relative top-96 z-10 lg:top-[480px] min-h-[720px]"
+      id="team"
+    >
       <div className="container mx-auto">
         {/* text & image wrapper */}
         <div className="flex flex-col lg:flex-row lg:gap-x-[120px] items-center lg:items-start">
@@ -31,18 +34,18 @@ const Team = () => {
             className="flex-1 text-center lg:text-left lg:pt-16"
           >
             <div className="pretitle">{pretitle}</div>
-            <h2 className="h2 capitalize">{title}</h2>
+            <h2 className="capitalize h2">{title}</h2>
             <p className="mb-[60px]">{sub1}</p>
             <p>{sub2}</p>
             <div className="my-[26px]">
-              <div className="text-2xl capitalize font-semibold text-accent">
+              <div className="text-2xl font-semibold capitalize text-accent">
                 {name}
               </div>
               <div className="text-[15px] font-semibold capitalize text-grey/70">
                 {occupation}
               </div>
             </div>
-            <div className="flex justify-center lg:justify-start mb-6 lg:mb-0">
+            <div className="flex justify-center mb-6 lg:justify-start lg:mb-0">
               <img src={signatureImg} alt="" />
             </div>
           </motion.div>
