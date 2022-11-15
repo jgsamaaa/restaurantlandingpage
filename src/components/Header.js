@@ -120,6 +120,7 @@ const Header = () => {
           </motion.div>
           {/* nav */}
           <motion.div
+            onClick={() => setNav(!nav)}
             variants={navVariants}
             initial="hidden"
             animate={nav ? 'show' : ''}
