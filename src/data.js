@@ -38,11 +38,11 @@ export const heroData = {
 };
 
 export const socialData = [
-  { href: '/', icon: <FaYoutube /> },
-  { href: '/', icon: <FaFacebookF /> },
-  { href: '/', icon: <FaInstagram /> },
-  { href: '/', icon: <FaPinterestP /> },
-  { href: '/', icon: <FaDiscord /> },
+  { href: 'https://www.youtube.com/', icon: <FaYoutube /> },
+  { href: 'https://www.facebook.com/', icon: <FaFacebookF /> },
+  { href: 'https://www.instagram.com/', icon: <FaInstagram /> },
+  { href: 'https://www.pinterest.com/', icon: <FaPinterestP /> },
+  { href: 'https://discord.com/', icon: <FaDiscord /> },
 ];
 
 export const aboutData = {
