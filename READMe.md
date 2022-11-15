@@ -12,7 +12,7 @@ Live Server: https://gabrielrestaurant.netlify.app/
 
 ## Tech Stack
 
-**Client:** React, TailwindCSS, Framer-motion
+**Client:** ReactJS, TailwindCSS,
 
 ## Run Locally
 
